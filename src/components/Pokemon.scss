@@ -18,4 +18,36 @@
 	&-img {
 		width: 15rem;
 	}
+
+	&-types-title,
+	&-moves-title {
+		margin: 0.5rem 0;
+	}
+
+	&-types,
+	&-moves {
+		display: flex;
+		flex-wrap: wrap;
+
+		&-type {
+			padding: 1rem;
+			text-transform: capitalize;
+		}
+	}
+}
+
+.return-container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+
+	.return {
+		background-color: #ef5350;
+		border: unset;
+		border-radius: 15px;
+		cursor: pointer;
+		font-family: 'Press Start 2P', cursive;
+		padding: 1rem;
+	}
 }
