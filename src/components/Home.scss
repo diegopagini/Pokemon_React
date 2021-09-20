@@ -1,0 +1,19 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.home {
+	align-items: center;
+	display: flex;
+	font-family: 'Press Start 2P', cursive;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 2rem 1rem;
+
+	&-gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+		width: 100%;
+	}
+}

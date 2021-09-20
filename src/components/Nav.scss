@@ -1,0 +1,23 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.nav {
+	align-items: center;
+	background-color: #ef5350;
+	display: flex;
+	font-family: 'Press Start 2P', cursive;
+	height: 3rem;
+	overflow: hidden;
+	width: 100%;
+
+	&-ul {
+		list-style: none;
+
+		&-link {
+			color: #000;
+			text-decoration: none;
+			padding-left: 2rem;
+		}
+	}
+}
